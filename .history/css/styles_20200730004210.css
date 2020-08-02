@@ -1,0 +1,41 @@
+:root {
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/*********** Navbar Section starts **********/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
