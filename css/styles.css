@@ -34,6 +34,10 @@ h3 {
     font-family: 'DM Serif Display', sans-serif;
 }
 
+p {
+    font-size: 16px;
+}
+
 a {
     text-decoration: none;
     font-weight: 400;
@@ -170,3 +174,23 @@ ul li button {
 
 
 /****** Introduction page ends ********/
+
+
+/****** Advertisement page starts ********/
+
+#ads {
+    margin: 200px auto;
+}
+
+#ads hr {
+    background-color: var(--DarkGrayishViolet);
+}
+
+#ads h1 {
+    margin-bottom: 70px;
+    font-weight: 700;
+}
+
+#ads img {
+    margin-bottom: 40px;
+}
