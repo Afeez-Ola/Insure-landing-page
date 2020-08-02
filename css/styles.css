@@ -46,7 +46,7 @@ hr {
     width: 100px;
     height: 0.5px;
     font-weight: 400;
-    color: var(--VeryLightGray);
+    background-color: white;
 }
 
 img {
