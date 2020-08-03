@@ -98,8 +98,6 @@ ul li button {
 
 .btn {
     margin-left: 50px;
-    /* position: relative;
-    bottom: 12px; */
 }
 
 .nav-links {
@@ -169,6 +167,10 @@ ul li button {
 .intro-text,
 .intro-image {
     padding-top: 5%;
+}
+
+.intro-text {
+    background-color: var(--DarkViolet);
 }
 
 .intro-text h1 {
@@ -281,4 +283,27 @@ ul li button {
 
 .attribution {
     margin: 40px 500px 20px;
+}
+
+@media screen and (min-width: 375px) {
+    #intro-page {
+        background-color: var(--white);
+    }
+    .intro-image img {
+        width: 150%;
+    }
+    .intro-text {
+        position: absolute;
+        bottom: -100px;
+    }
+    #ads {
+        margin: 270px auto 100px;
+    }
+    #ads img {
+        margin: 0 130px 40px;
+    }
+    .row h3 {
+        width: 100%;
+        margin: 0 75px;
+    }
 }
