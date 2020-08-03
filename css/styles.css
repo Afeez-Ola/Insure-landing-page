@@ -304,6 +304,11 @@ ul li button {
     }
     .row h3 {
         width: 100%;
-        margin: 0 75px;
+        text-align: center;
+    }
+    .row p {
+        width: 90%;
+        text-align: center;
+        margin: auto;
     }
 }
