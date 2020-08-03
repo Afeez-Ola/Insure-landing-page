@@ -329,12 +329,18 @@ ul li button {
 
     .cta-text {
         flex-direction: column;
-        width: 100%;
+        width: 80%;
     }
 
     .cta-text h1 {
-        width: 100%;
+        width: 90%;
         right: 0;
         text-align: center;
+    }
+
+    .cta-text button {
+        width: 64%;
+        position: relative;
+        top: 50px;
     }
 }
