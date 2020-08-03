@@ -125,6 +125,7 @@ ul li button {
     body {
         overflow-y: hidden;
     }
+
     .nav-links {
         position: absolute;
         height: 32vh;
@@ -137,9 +138,11 @@ ul li button {
         transform: translateY(-130%);
         transition: transform 0.5s ease-in;
     }
+
     .burger {
         display: block;
     }
+
     ul li a {
         text-decoration: none;
         color: var(--VeryLightGray);
@@ -289,26 +292,49 @@ ul li button {
     #intro-page {
         background-color: var(--white);
     }
+
     .intro-image img {
         width: 150%;
     }
+
     .intro-text {
         position: absolute;
         bottom: -100px;
     }
+
     #ads {
         margin: 270px auto 100px;
     }
+
     #ads img {
         margin: 0 130px 40px;
     }
+
     .adverts h3 {
         width: 100%;
         text-align: center;
     }
+
     .adverts p {
-        width: 90%;
+        width: 94%;
         text-align: center;
         margin: auto;
+    }
+
+    #cta {
+        width: 100%;
+        height: 40vh;
+        flex-direction: column;
+    }
+
+    .cta-text {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-text h1 {
+        width: 100%;
+        right: 0;
+        text-align: center;
     }
 }
