@@ -179,7 +179,7 @@ ul li button {
 /****** Advertisement page starts ********/
 
 #ads {
-    margin: 200px auto;
+    margin: 200px auto 100px;
 }
 
 #ads hr {
@@ -193,4 +193,44 @@ ul li button {
 
 #ads img {
     margin-bottom: 40px;
+}
+
+
+/****** Advertisement page ends ********/
+
+
+/****** CTA page starts ********/
+
+#cta {
+    background-color: var(--DarkViolet);
+    width: 80%;
+    height: 25vh;
+    margin: auto auto 30px;
+}
+
+.cta-text {
+    margin: auto 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-text h1 {
+    width: 34%;
+    color: var(--white);
+    position: relative;
+    right: 260px;
+    margin: auto;
+    top: 30px;
+}
+
+.cta-text button {
+    width: 14%;
+    position: relative;
+    top: 50px;
+}
+
+.cta-text button:hover {
+    background-color: var(--white);
 }
