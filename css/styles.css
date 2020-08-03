@@ -205,7 +205,7 @@ ul li button {
     background-color: var(--DarkViolet);
     width: 80%;
     height: 25vh;
-    margin: auto auto 30px;
+    margin: auto auto 150px;
 }
 
 .cta-text {
@@ -233,4 +233,25 @@ ul li button {
 
 .cta-text button:hover {
     background-color: var(--white);
+}
+
+
+/****** CTA page ends ********/
+
+
+/****** Footer page starts ********/
+
+#footer hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.media-images {
+    margin: auto 420px;
+    width: 200%;
+}
+
+.media-images img {
+    /* margin: 0 10px; */
+    margin-left: 6px;
 }
