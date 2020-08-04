@@ -172,10 +172,6 @@ ul li button {
     padding-top: 5%;
 }
 
-.intro-text {
-    background-color: var(--DarkViolet);
-}
-
 .intro-text h1 {
     width: 55%;
 }
@@ -290,6 +286,10 @@ ul li button {
 @media screen and (max-width: 375px) {
     #intro-page {
         background-color: var(--white);
+    }
+
+    .intro-text {
+        background-color: var(--DarkViolet);
     }
 
     .intro-image img {
