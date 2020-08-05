@@ -283,9 +283,11 @@ ul li button {
 @media screen and (max-width: 375px) {
     #intro-page {
         background-color: var(--white);
+        /* height: 59vh; */
     }
     .intro-text {
         background-color: var(--DarkViolet);
+        height: 55vh;
     }
     .intro-image img {
         width: 150%;
@@ -293,6 +295,11 @@ ul li button {
     .intro-text {
         position: absolute;
         bottom: -100px;
+    }
+    .intro-text button {
+        width: 32%;
+        margin-top: 10px;
+        margin: 30px 100px 0;
     }
     #ads {
         margin: 270px auto 100px;
