@@ -22,7 +22,7 @@ body {
     font-family: 'Karla', sans-serif;
     background: var(--white);
     -webkit-font-smoothing: antialiased;
-    height: 100vh;
+    height: auto;
 }
 
 body,
@@ -125,6 +125,7 @@ ul li button {
     body {
         overflow-y: hidden;
     }
+
     .nav-links {
         position: absolute;
         height: 32vh;
@@ -137,9 +138,11 @@ ul li button {
         transform: translateY(-130%);
         transition: transform 0.5s ease-in;
     }
+
     .burger {
         display: block;
     }
+
     ul li a {
         text-decoration: none;
         color: var(--VeryLightGray);
@@ -284,66 +287,82 @@ ul li button {
     #intro-page {
         background-color: var(--white);
     }
+
     .intro-text {
         background-color: var(--DarkViolet);
     }
+
     .intro-image img {
         width: 150%;
     }
+
     .intro-text {
         position: absolute;
         bottom: -100px;
     }
+
     #ads {
         margin: 270px auto 100px;
     }
+
     #ads img {
         margin: 0 130px 40px;
     }
+
     .adverts h3 {
         width: 100%;
         text-align: center;
     }
+
     .adverts p {
         width: 94%;
         text-align: center;
         margin: auto;
     }
+
     #cta {
         width: 100%;
         height: 40vh;
         flex-direction: column;
     }
+
     .cta-text {
         flex-direction: column;
         width: 80%;
     }
+
     .cta-text h1 {
         width: 90%;
         right: 0;
         text-align: center;
     }
+
     .cta-text button {
         width: 64%;
         position: relative;
         top: 50px;
     }
+
     #footer hr {
         width: 90%;
         margin: 20px auto;
         background-color: var(--DarkGrayishViolet);
     }
+
     .footer-logo {
         display: flex;
         flex-direction: column;
     }
+
     .media-images {
         margin: auto 100px 20px;
         width: 200%;
     }
+
     .media-images img {
         margin-left: 0;
     }
+
     .logo-image {
         margin: auto 100px 20px;
     }
